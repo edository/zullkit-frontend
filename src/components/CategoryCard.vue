@@ -13,7 +13,8 @@ defineProps({
     <div class="overflow-hidden border border-gray-200 rounded-xl">
       <RouterLink to="/">
         <div class="m-4 overflow-hidden rounded-xl">
-          <img :alt="title" class="block w-full h-auto" :src="'/src/assets/img/' + image" />
+          <!-- <img :alt="title" class="block w-full h-auto" :src="'/src/assets/img/' + image" /> -->
+          <img :alt="title" class="block w-full h-auto" :src="'@/assets/img/' + image" />
         </div>
       </RouterLink>
 
